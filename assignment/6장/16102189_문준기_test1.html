@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+      img {
+        height : 100px; width: 100px;
+        position: relative;
+        border : thick solid black;
+        box-shadow: 15px 15px 20px blue;
+      }
+      #cat {
+        z-index: 2;
+        left : 3px;
+        border-color : blue;
+        opacity: 0.8;
+        box-shadow: 15px 15px 20px blue;
+        }
+      #dog {
+         z-index: 3;
+         top : 60px; left : -30px;
+         border-color: red;
+         opacity: 0.6;
+         box-shadow: 15px 15px 20px purple;
+        }
+      #duck {
+        z-index: 1;
+        top : 120px; left : -60px;
+        border-color : green;
+        opacity : 0.3;
+        box-shadow: 15px 15px 20px red;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h3>이미지 투명도</h3>
+    <img id = 'cat' src="C:\Users\Jun\OneDrive\4-1\웹프로그래밍\강의자료\[WebProgramming6주차강의자료]_files\6주차 실습자료\CAT.png" alt="">
+    <img  src="C:\Users\Jun\OneDrive\4-1\웹프로그래밍\강의자료\[WebProgramming6주차강의자료]_files\6주차 실습자료\DOG.png" id = "dog" alt="">
+    <img id = 'duck' src="C:\Users\Jun\OneDrive\4-1\웹프로그래밍\강의자료\[WebProgramming6주차강의자료]_files\6주차 실습자료\DUCK.png" alt="">
+
+  </body>
+</html>
