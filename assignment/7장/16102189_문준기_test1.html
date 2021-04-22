@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    * {
+      box-sizing: border-box;
+    }
+
+    input[type=text],[type=password],  textarea {
+      width: 300px;
+      padding: 10px;
+    }
+    select{
+      width : 150px;
+      padding : 10px;
+    }
+
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .col-25 {
+      float: left;
+      width: 10%;
+      margin-top: 6px;
+    }
+
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    h1{font-size: 35px;
+    font-family: gulim}
+
+    /* Clear floats after the columns */
+
+
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+    </style>
+  </head>
+  <body>
+  <div class="container">
+    <form class="" action="index.html" method="post">
+      <h1>게임 동아리 가입 신청</h1>
+      <ul style ="list-style-position : inside">
+        <li>★표시 필드 항목은 필수입력 사항</li>
+        <li>※SNS 항목은 선택 입력 사항</li>
+      </ul>
+      <div class="row">
+        <div class="col-25">
+          <label for="">★이름:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="" value="홍길동">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="">★비밀번호:</label>
+        </div>
+        <div class="col-75">
+          <input type="password" name="" value="111111" maxlength="6">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="">★학과:</label>
+        </div>
+        <div class="col-75">
+          <select class="" name="">
+            <option value="">영문학</option>
+            <option value="">컴퓨터</option>
+            <option value="">역사</option>
+            <option value="" selected>정보통신</option>
+            <option value="">국문학</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="">★Email:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="" value="hong@korea.com">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="">※SNS:</label>
+        </div>
+        <div class="col-75">
+          <input type="text" name="" value="">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="" style = "line-height:100px;">★자기소개:</label>
+        </div>
+        <div class="col-75">
+          <textarea name="name" rows="8" cols="80"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+        </div>
+        <div class="col-75">
+          <input type='submit' name="" value="제출">
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
