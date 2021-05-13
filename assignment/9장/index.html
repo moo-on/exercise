@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+      .wrap { margin:0; margin-right: auto; margin-left: auto; }
+      #main{font-size: 40px; color : #8b00ff}
+      header span{margin : 20px}
+
+      nav { margin:0 0 20px 0; float:left;  }
+      nav ul li a{ float:left;    margin:0 15px; list-style:none; color : white;  }
+      nav a { display:block; padding:5px; margin : 20px; }
+      nav { background-color: aqua; }
+      nav ul { list-style:none; font-family: Verdana, Geneva, sans-serif; font-size: 14px;
+          font-weight: bold;
+      }
+      nav a { text-decoration:none; color:#000000; border-style: hidden hidden solid hidden;
+          border-color: transparent;
+      }
+      nav { width: 700px; }
+      nav a { height:20px; }
+
+      nav a:hover { color:green;  }
+
+      article img{width : 200px;}
+
+      footer #copyright { margin:20px 0 0 10px; float:left;    }
+
+      footer #SNS { margin:10px 20px 0 0 ; float:right;    }
+
+      footer { height:70px; }
+
+
+      iframe{width : 500px; height : 400px; border : 0px;}
+    </style>
+
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <span id = "main">한국의 사계(四季)</span>
+        <span>로그인</span>
+        <span>회원가입</span>
+      </header>
+
+      <nav>
+        <ul>
+            <li><a href="home.html" target="display_area">홈</a></li>
+            <li><a href="spring.html" target = "display_area">봄</a></li>
+            <li><a href="summer.html" target="display_area">여름</a></li>
+            <li><a href="fall.html" target="display_area">가을</a></li>
+            <li><a href="winter.html" target="display_area">겨울</a></li>
+        </ul>
+      </nav>
+      <br><br><br><br><br><br>
+
+      <article class=>
+        <iframe name="display_area" src="home.html"></iframe>
+      </article>
+
+      <footer>
+        <div id="copyright">
+            Copyright (c) 2016 SM Bookstore Inc. All rights reserved
+        </div>
+        <div id="SNS">
+            <a href="http://facebook.com" target="_blank">
+                <img src="images/facebook.png" height="32" alt="Facebook">
+            </a>
+            <a href="http://twitter.com" target="_blank">
+                <img src="images/twitter.png" height="32" alt="Twitter">
+            </a>
+            <a href="http://plus.google.com" target="_blank">
+                <img src="images/googleplus-icon.png" height="32" alt="Google Plus">
+            </a>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
