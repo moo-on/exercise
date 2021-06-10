@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <input type="button" onClick ="func1()" value="계산하기">
+    <script type="text/javascript">
+      var sum = 0
+      for(i=0; i<2; i++){
+        sum += parseInt(prompt("숫자" + (i+1) +"값"))
+      }
+
+      function func1(){
+        alert("합계="+sum)
+      }
+
+
+
+    </script>
+  </body>
+</html>
